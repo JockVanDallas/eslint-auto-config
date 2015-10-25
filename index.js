@@ -190,7 +190,7 @@ var init = function () {
         {
             'type': 'input',
             'name': 'files',
-            'message': 'File(s) to scan? ( ./src/js/**/*.js )'
+            'message': 'File(s) to scan?'
         },
         {
             'type': 'confirm',
