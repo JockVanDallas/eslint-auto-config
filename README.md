@@ -7,6 +7,8 @@ Automated creation of the eslint config file, according to your current coding s
 * Best practices are all on (WARN)
 * All other rules will be tested against your own code
 
+Also usefull to start with a config file with all rules.
+
 # Installation
 
 You can install ESLint using npm:
@@ -22,7 +24,6 @@ cd path/to/your/project/
 and run eslint-auto-config
 ```
 eslint-auto-config
-
 ```
 You have to answer a few question before the auto config starts.
 
