@@ -22,7 +22,7 @@ var addRule = function ( section, rule, val ) {
 
     if( rule ) rulesConfig[section][rule] = val;
 
-    console.log( 'SET RULE : ' + rule + " : " + val)
+    console.log( rule + ": " + val)
 
 }
 
@@ -39,7 +39,7 @@ var getErrorCount = function ( rule, val ) {
 
     // lint all js files in settings.files glob
     var report = cli.executeOnFiles( [settings.files] );
-    console.log( rule + ' : ' + val + " gives " + report.errorCount + " warnings")
+    // console.log( rule + ' : ' + val + " gives " + report.errorCount + " warnings")
     return report.errorCount;
 
 }
@@ -48,7 +48,7 @@ var startConfig = function ( answers ) {
     // settings = JSON.stringify(answers, null, "  ");
     settings = answers;
     //settings.path = jsPath;
-    console.log( settings );
+    //console.log( settings );
     checkRules();
 }
 
